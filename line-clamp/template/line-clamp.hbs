@@ -1,0 +1,7 @@
+{{truncatedText}}
+{{#if isTextTruncated}}
+  {{_ellipsisText}}
+  {{#if showViewMore}}
+    <span class='@text-decoration(underline) @font-style(italic) @color(blue) @cursor(pointer)' {{action 'showMoreClicked'}}>{{viewMoreText}}</span>
+  {{/if}}
+{{/if}}
